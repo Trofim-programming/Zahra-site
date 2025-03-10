@@ -9,19 +9,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Revalia&family=Roboto&display=swap" rel="stylesheet">
     <script src="jquery-3.5.1.min.js"></script>
     <style>
-        /* Custom Styles for a Stylish Look */
+        /* Custom Styles for Dark Theme */
         body {
             font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
-            background: #f4f4f9;
-            color: #333;
+            background-color: #121212; /* Dark background */
+            color: #f4f4f9; /* Light text */
         }
 
         header {
-            background-color: #ff66b2; /* Feminine pink shade */
+            background-color: #1e1e1e; /* Darker header */
             padding: 20px 0;
-            color: white;
+            color: #f4f4f9;
         }
 
         header .wrapper {
@@ -36,11 +36,12 @@
             font-family: 'Revalia', cursive;
             font-size: 36px;
             margin: 0;
+            color: #f4f4f9;
         }
 
         .header_menu a {
             margin: 0 20px;
-            color: white;
+            color: #f4f4f9;
             text-decoration: none;
             font-size: 18px;
         }
@@ -53,12 +54,13 @@
             display: flex;
             justify-content: space-between;
             padding: 40px 0;
-            background-color: #fff;
+            background-color: #1e1e1e; /* Dark background */
         }
 
         .intro_left img {
             max-width: 250px;
             border-radius: 50%;
+            border: 4px solid #f4f4f9;
         }
 
         .intro_right {
@@ -68,7 +70,7 @@
         .intro_title {
             font-size: 36px;
             font-family: 'Revalia', cursive;
-            color: #ff66b2;
+            color: #ff5722; /* Accent color */
         }
 
         .intro_text {
@@ -78,7 +80,7 @@
         }
 
         .intro_button {
-            background-color: #ff66b2;
+            background-color: #ff5722;
             color: white;
             border: none;
             padding: 10px 20px;
@@ -89,21 +91,22 @@
         }
 
         .intro_button:hover {
-            background-color: #e55d9e;
+            background-color: #e64a19;
         }
 
         .about, .projects, .skills, .process, .gallery, .send {
             padding: 60px 0;
+            background-color: #1e1e1e;
         }
 
         .about_title, .projects_title, .skills_title, .process_title {
             font-size: 32px;
             font-family: 'Revalia', cursive;
-            color: #ff66b2;
+            color: #ff5722;
         }
 
         .send_button {
-            background-color: #ff66b2;
+            background-color: #ff5722;
             color: white;
             border: none;
             padding: 10px 20px;
@@ -113,12 +116,12 @@
         }
 
         .send_button:hover {
-            background-color: #e55d9e;
+            background-color: #e64a19;
         }
 
         .footer {
-            background-color: #ff66b2;
-            color: white;
+            background-color: #1e1e1e;
+            color: #f4f4f9;
             text-align: center;
             padding: 20px 0;
         }
@@ -152,12 +155,12 @@
     <header>
         <div class="wrapper">
             <div class="header_logo">
-                <h1 id="headerLogo">WD</h1>
+                <h1 id="headerLogo">Иван Иванов</h1>
             </div>
 
             <div class="header_menu">
                 <a href="#">ГЛАВНАЯ</a>
-                <a href="#">ОБ АВТОРЕ</a>
+                <a href="#">ОБО МНЕ</a>
                 <a href="#">РАБОТЫ</a>
                 <a href="#">ПРОЦЕССЫ</a>
                 <a href="#">КОНТАКТЫ</a>
@@ -175,7 +178,8 @@
             <div class="intro_right">
                 <h1 class="intro_title">Дизайн и верстка</h1>
                 <p class="intro_text">
-                    Добро пожаловать на мой сайт! Я специализируюсь на веб-дизайне и верстке, создавая уникальные и стильные сайты, которые привлекают внимание.
+                    Я дизайнер и разработчик, специализирующийся на создании уникальных веб-сайтов с фокусом на детали и функциональность.
+                    Моя цель — создавать качественные и стильные сайты для вашего бизнеса.
                 </p>
                 <button class="intro_button" onclick="document.getElementById('myModal').style.display='block'">НАПИСАТЬ МНЕ</button>
             </div>
@@ -187,7 +191,7 @@
                 <div class="about_block">
                     <h2 class="about_title">Обо мне</h2>
                     <p class="about_text">
-                        Я увлекаюсь веб-дизайном и созданием уникальных сайтов. Моя цель — делать интернет-пространство красивым и удобным для пользователей.
+                        Я увлекаюсь дизайном и версткой. Моя задача — не только сделать сайт красивым, но и удобным для пользователя. Превращаю идеи в реальность.
                     </p>
                 </div>
             </div>
